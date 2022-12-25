@@ -1,0 +1,55 @@
+i {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.note-head {
+  display: flex;
+  justify-content: space-between;
+}
+.tag {
+  font-size: 0.8rem;
+}
+.logo {
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+.about-icons {
+  font-size: 100px;
+  margin-top: 30px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weblogo {
+  width: 30px;
+  margin: 0 10px;
+}
+.card {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.29);
+}
+.user-image {
+  border-radius: 80px;
+}
+.add-note-form,.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add-note-form input,
+.add-note-form textarea,
+.add-note-form button,.login-form input,.login-form button {
+  width: 400px;
+}
+button{
+  margin-top: 10px;
+}

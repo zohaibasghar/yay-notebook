@@ -1,0 +1,29 @@
+{
+	"name": "yaynotebook-backend",
+	"version": "1.0.0",
+	"description": "make a cloud notebook of your own to keep notes and it has backend facilities",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"keywords": [
+		"yay",
+		"notebook",
+		"note",
+		"book"
+	],
+	"author": "Zohaib Asghar",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"express-validator": "^6.14.2",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.7.5"
+	}
+}
